@@ -1,0 +1,877 @@
+
+
+
+
+
+.nav-left{
+		background: white;
+		padding: 0.6em 0.8em;
+		width: 100%;
+	    height: 3em;
+	
+}
+.nav-left h2{
+	font-size: 1.2em;
+	float: left;
+	color:#333e48
+}	
+.nav-left img{
+	float:right;
+	display: block;
+	padding-top: .5em;
+
+}
+.nav-center{
+	position: relative;
+}
+.nav-bottom{
+    position: absolute;
+    top:3em;
+    z-index: 1;
+    width: 100%;
+    background: #fff;
+   
+}
+.nav-bottom ul li:first-child{
+	border-top: 1px solid #d8d8d8;
+}
+.nav-bottom ul li:last-child{
+	border-bottom: 1px solid #d8d8d8;
+}
+.nav-bottom ul li{
+	height: 3em;
+    padding: 0.5em 0.8em;
+    border-top: 1px solid #d8d8d8;
+  
+}
+.nav-bottom ul li a{
+	color: #333e48;
+    font-weight: 100;
+    font-size: 1.2em;
+    display: inline-block;
+    padding-top: .2em;
+}
+.nav-bottom ul li img{
+    float: right;
+}
+/**
+ * 速珂宝二期工程
+ * vido return 
+ * email shu_lh@supersoco.com
+ * QQ:857430902
+ * ***/
+.speed_card{
+	position: relative;
+	width: 100%;
+	min-height: 50vh;
+}
+.speed_card_top{
+	width: 100%;
+	background:url(../images/speedBao/speed.png) center center no-repeat;
+    background-size:contain;
+    box-sizing: border-box;
+}
+.speed_card_bottom{
+	position: relative; 
+	padding: 3em 2em;
+}
+.speed_card_to{
+	padding:2.625em 2em 4em 2em;
+}
+.speed_cards{
+	padding-top: 3.375em;
+}
+.speed_card_bottom input{  
+       width:100%;  
+       height:2.8125em;  
+       line-height:45px;  
+       border:1px solid #cecece;  
+       border-radius: 6px;
+        
+}  
+.speed_card_bottom .text{
+	border:solid 1px #cecece;
+	width:100%;  
+    height:2.8125em;  
+    line-height:45px; 
+    border-radius: 6px;
+    position: relative;
+ }
+ .icon1{
+ 	background:url(../images/speedBao/page.png) no-repeat 10px 11px;
+ 	background-size: 9.8%;
+ }
+ .icon2{
+ 	background:url(../images/speedBao/page2.png) no-repeat 10px 11px;
+ 	background-size: 8%;
+ }   
+  .icon_x{
+  	display: inline-block;
+  	height: 22px;
+  	width:22px;
+  	background:url(../images/speedBao/prompt.png) no-repeat center center;
+  	float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 0.6875em;
+    margin-right: 0.6875em;
+    background-size:contain
+  }  
+.speed_card_bottom .text input{
+	float:left;
+	border:none;
+	background:none;
+	height:2.8125em;  
+    line-height:45px; 
+	width:90%; 
+	text-indent:55px;
+	color: #999; 
+ }
+.index-con input,
+.index-con select,
+.index-con textarea{
+        outline: none;
+        border: none;
+        padding: 4px 0px;
+        -webkit-appearance: none;
+       
+}	
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+	color: #999; 
+	font-size: 12px;
+} 
+input:-moz-placeholder, textarea:-moz-placeholder { 
+    color: #999; 
+    font-size: 12px;
+} 
+input::-moz-placeholder, textarea::-moz-placeholder { 
+   color: #999; 
+   font-size: 12px;
+} 
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+   color: #999;
+   font-size: 14px;
+    
+} 
+.hide {
+	display: none;
+}
+.speed_card_bottom .button{
+	height: 45px;
+	text-align: center;
+	border-radius: 5px;
+	background:#35A5DC;
+	width: 100%;
+	display: block;
+	margin: 1em auto 1em auto;
+	border: none;
+	color: #ffffff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	
+}
+
+.btn-sample { 
+			  color: #ffffff; 
+			  background-color: #35A5DC; 
+			  border-color: #35A5DC; 
+			} 
+			.btn-sample:active, 
+			.btn-sample.active, 
+			.open .dropdown-toggle.btn-sample { 
+			  background-image: none; 
+			} 
+		.btn-sample.disabled, 
+		.btn-sample[disabled], 
+		fieldset[disabled] .btn-sample, 
+		.btn-sample.disabled:hover, 
+		.btn-sample[disabled]:hover, 
+		fieldset[disabled] .btn-sample:hover, 
+		.btn-sample.disabled:focus, 
+		.btn-sample[disabled]:focus, 
+		fieldset[disabled] .btn-sample:focus, 
+		.btn-sample.disabled:active, 
+		.btn-sample[disabled]:active, 
+		fieldset[disabled] .btn-sample:active, 
+		.btn-sample.disabled.active, 
+		.btn-sample[disabled].active, 
+		fieldset[disabled] .btn-sample.active { 
+		  background-color: #9B4DCA; 
+		  border-color: #743997; 
+		} 
+.rippleria-ink {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  z-index: 10;
+}
+.rippleria-dark .rippleria-ink {
+  background: rgba(0, 0, 0, 0.2);
+}
+@keyframes rippleria {
+  100% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+}
+@-webkit-keyframes rippleria {
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(2.5);
+  }
+}
+.speed_card_bottom .button:focus,
+.infor_list .select:focus{
+    outline: 0;
+}
+.speed_card_bottom .spec_active{
+	width: 10.75em;
+	height: 10.125em;
+	margin: 4.125em auto;
+	display: block;
+    background:url(../images/speedBao/balance.png) no-repeat center center;
+    background-size: contain;
+    position: relative;
+}
+.speed_card_bottom .spec_active h1{
+	margin: 0 auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -1.4em;
+    margin-top: -1.2em;
+    width: 40px;
+}
+.speed_card {
+	position: relative;
+	margin: 0 auto;
+	color: #333333;
+	background: #f3f3f3;
+	overflow: hidden;
+}
+.spec_fully{
+		padding: 7em 2.8em 3.5em 2.8em;
+}
+.succes_card {
+	text-align: center;
+}
+.succes_card span{
+	padding-left: 1em;
+}
+.speed_card p{
+	font-size: 14px;
+	line-height: 26px;
+	padding: 3em 0.5em;
+}
+.speed_infor{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	background: #f3f3f3;
+}
+.infor_list{
+	margin: 1em;
+	background: #fff;
+	padding: .8em;
+	border-radius: 3px;
+}
+.infor_list li{
+	padding: .5em 0em;
+}
+.infor_list label{
+	font-size: 12px;
+	display: inline-block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 30%;
+    text-align:left;
+    color: #333333;
+    
+}
+.infor_list input{
+	height: 37px;
+	line-height: 37px;
+	width: 70%;
+    border: 1px solid #d2d2d2;
+    border-radius: 4px;
+    color: #333;
+    outline: none;
+    transition: all 0.4s;
+    text-indent:10px;
+    font-size: 12px;
+    
+}
+.infor_list input[type=text]:focus,
+.infor_list select:focus,
+.infor_list textarea:focus
+{
+	border-color:#333;
+}
+.glyphicon-folder-close .list li input[type=text] {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #d2d2d2;
+    border-radius: 4px;
+    margin: 5px;
+    padding-left: 10px;
+    color: #333;
+    outline: none;
+    transition: all 0.4s;
+    
+}
+.infor_list .select{
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari 和 Chrome */
+    background: url(../images/speedBao/icons.png) 190px -42px no-repeat;
+}
+.infor_list select{
+	width:70%;
+	height: 37px;
+	line-height: 37px;
+	border:1px solid #d2d2d2;
+	border-radius:4px;
+	outline:none;
+	font-size: 12px;
+	padding-left: 10px;
+	transition:all 0.4s;
+	color: #999;
+}
+button{
+	outline:none;
+	box-shadow: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+button::-moz-focus-inner {
+box-shadow: none;
+border: 0;
+	outline:none;
+}
+.infor_list textarea{
+    width: 70%;
+    min-height: 80px;
+    border: 1px solid #d2d2d2;
+    border-radius: 4px;
+    padding: 5px;
+    outline: none;
+    transition: all 0.4s;	
+}
+.file_list{
+	text-align: center;
+	padding: 1em 1em 0em 1em;
+	font-size: 12px;
+	color: #333333;
+	position: relative;
+}
+.file_list h4{
+	font-weight: 500;
+	margin: .5em;
+    color: #FF1500;
+}
+.file_list p{
+	text-align: left;
+	line-height: 20px;
+	margin-bottom: 1em;
+}
+.content_img{
+	margin: .5em .2em;
+	position: relative;
+}
+.file_list .file_img{
+	height: 45px;
+	margin: 0em 1.2em;
+	background:#000000;
+	opacity: 0.6;
+    position: absolute;
+    bottom: 0em;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    margin-bottom: 2em;
+    line-height: 45px;
+
+}
+
+.file_img input[type=file]{
+	cursor:pointer;
+	height:45px;
+	position:absolute;
+	left: 0;
+	top:0;
+	opacity:0;
+	width: 100%;
+}
+.file_img .file-center{
+   text-align: center;
+   color: #FFFFFF;
+   font-size: 12px;
+   
+}
+.file_img .file-center span{
+    margin-left: 0.8em;
+    display: inline-block;
+    position: relative;
+    top: .2em;
+}
+.speed_card_to.speed_card_es{
+	margin-top: -3em;
+}
+.speed_card .speed-nav{
+	width: 100%;
+    height: 50px;
+    background: #f3f3f3;
+    font-size: 0.875em;
+    border-bottom: 1px solid #D6D6D6;
+}
+.speed_card li{
+	width: 50%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+    position: relative;
+    color: #333333;
+    border-right: 1px solid #EBEBEB;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.speed_card li:nth-child(2){
+	border-right: none
+}
+.speed-nav li.active{
+	color: #999999;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.speed-nav li.active span {
+    left: 10%;
+    bottom: 0;
+    opacity: 1;
+    
+ }
+.speed-nav li span {
+    width: 80%;
+    height: 4px;
+    background: #34A3DB;
+    display: block;
+    margin-top: -0.3em;
+    opacity: 0;
+    margin-left: 10%;
+}
+.details_list_policy{
+	background: #FFFFFF;
+	margin: 1em;
+	border-radius: 3px;
+	min-height: 130px;
+	z-index: 99;
+	display: block;
+	padding: 1em 1em 0 1em;
+	font-size: 12px;
+	color: #333333;
+}
+.details_list_policy .details_bottom .nav_left img{
+	width: 60px;
+}
+.details_top img{
+	margin-right: .5em;
+	width: 20px;
+}
+.details_top span{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+.details_top  em{
+	font-style:normal;
+	font-size: 12px;
+	color: #333333;
+	margin-left: .5em;
+}
+.details_top a{
+	display: inline-block;
+	float: right;
+	color: #333333;
+}
+.details_bottom{
+	position:relative;
+	width: 100%;
+	overflow: hidden;
+	padding: 0.5em 0;
+}
+.details_bottom .nav_left{
+	float: left;
+	border: 1px solid #E0E0E0;
+    text-align: center;
+    padding: 1.2em;
+    margin-right: 1.2em;
+}
+.details_bottom .nav_right{
+	line-height: 1.5em;
+    overflow: hidden;
+    
+}
+.details_bottom .nav_right label{
+	line-height: 20px;
+}
+.details_bottom .nav_right section:nth-of-type(1){
+	border-bottom: 1px solid #F4F4F4;
+    padding: 0.2em;
+    margin-bottom: .3em;
+}
+
+
+.index-con .vote-masker{
+    position: fixed;
+    z-index: 99999999;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #333;
+    opacity: 0.6;
+ }
+
+.index-con .big-img{
+ 	box-sizing: border-box;
+    position: fixed;
+    height: 15.25em;
+    width: 16.25em;
+    background: url(../images/speedBao/backg.png) center center no-repeat;
+    background-size: 100% 100%;
+    top: 50%;
+    left: 50%;
+    z-index: 9999999999999;
+    margin-top: -7.125em;
+    margin-left: -8.125em;
+    border-radius: 4px;
+    display: table-cell;
+    vertical-align: middle;
+ }
+ .v-center h2{
+ 	font-size: 14px;
+    text-align: center;
+    padding: 1em 4em;
+    line-height: 20px;
+    font-weight: 500;
+    color: #333333;
+
+ }
+  .v-center{
+ 	position: absolute;
+ 	bottom:0;
+ 	margin-bottom: 0.5em;
+ }
+ .big-img img{
+	display: block;
+    margin: 0 auto;
+    margin-top: 1.3em;
+    width: 70px;
+}
+ .big-img .t-top .cl{
+ 	display: inline-block;
+	height: 2em;
+	width: 2em;
+	background: url(../images/speedBao/error.png) center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+}
+  .v-center .button-pops{
+ 	background-color: #35A4DC;
+    padding: 0.8em;
+    width: 50%;
+    display: block;
+    margin: 1.25em auto 1em auto;
+    border-radius: 50px;
+    color: 14px;
+    color: #fff;
+    color: 12px;
+    font-size: 12px;
+    text-align: center;
+ }
+.speed_cla_bottom{
+	margin: 3em 1em 1em 1em;
+	background: #FFFFFF;
+	min-height: 300px;
+	border-radius: 3px;
+	position: relative;
+}
+.speed_cla_bottom .speed_clauses{
+	background: #FFFFFF;
+	height: 80px;
+	width: 75px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top:1em;
+	position: absolute;
+	left: 50%;
+    margin-left: -2.34em;
+    top: 0;
+    margin-top: -2em;
+}
+.speed_cla_bottom .speed_clauses img{
+	margin: 0 auto;
+    display: block;
+    padding-top: 1em;
+    width: 65%;
+}
+.speed_cla_list{
+	padding: 2em 1em 1em 1em ;
+}
+.speed_cla_list section{
+	font-size: 0.9em;
+	color: #333333;
+	line-height: 22px;
+}
+.speed_cla_list label{
+	border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 0.5em;
+    display: block;
+    padding-top: 0.5em;
+}
+.data-tab{
+	text-align: center;
+	
+}
+.details-des-six{
+	padding: 0.5em 1em;
+}
+.details-des-six h3{
+	font-weight: 400;
+	font-size: 14px;
+	color: #333333;
+	padding-bottom: .4em;
+	
+}
+.details-des-six a{
+	color: red;
+	font-size: 14px;
+	border-bottom: 1px solid red;
+	margin-left: .5em;
+	
+}
+
+.speed_claucoset {
+	margin: 8em auto;
+	text-align: center;
+}
+.speed_claucoset img{
+	opacity: .6;
+    overflow: hidden;
+}
+.speed_claucoset h3{
+	font-weight: 400;
+	font-size: 14px;
+	color: #333333;
+	padding-top: 1em;
+}
+/**
+ * 理赔功能
+ * **/
+.speed_compenstion{
+	position: relative;
+    color: #333333;
+    background: #FFFFFF;
+    min-height: 50vh;
+    margin: 1em;
+}
+.ins-table_9{
+	width:100%;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}
+#con9 .ins-table_9 h1{
+	position: absolute;
+    display: block;
+    text-align: center;
+    padding: 0rem 2rem 0.5rem 2rem;
+    font-weight: 300;
+    color: #333;
+    top: 0;
+    background: #fff;
+    margin-top: -0.8em;
+    left: 50%;
+    margin-left: -60px;
+    overflow: hidden;
+}
+#con9 .ins-tables_9 thead,
+#con10 .ins-tables_9 thead{
+    width: 100%;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+#con10 .ins-tables_9 thead tr{
+	border: 1px solid #ececec;
+    box-sizing: border-box;
+    height: 65px;
+    text-align: center;
+    word-break: break-all;
+    line-height: 65px;
+    border-bottom: none;
+    position: relative;
+}
+
+#con10 .ins-tables_9 thead tr{
+	  height: 60px;
+	 line-height: 45px;
+}
+
+#con10 .ins-table_9 h1{
+	position: absolute;
+    display: block;
+    text-align: center;
+    padding: 0rem 2rem 0.5rem 2rem;
+    font-weight: 300;
+    color: #333;
+    top: 0;
+    background: #fff;
+    margin-top: -0.8em;
+    left: 50%;
+    margin-left: -80px;
+    overflow: hidden;
+}
+#con9 .ins-tables_9 thead tr,
+#con10 .ins-tables_9 thead tr{
+	border: none;
+}
+#con9 .ins-tables_9 tbody  tr td:nth-of-type(1),
+#con10 .ins-tables_9 tbody  tr td:nth-of-type(1){
+	border-left: none
+}
+#con9 .ins-tables_9 tbody  tr td:nth-of-type(2),
+#con9 .ins-tables_9 tbody  tr td:nth-of-type(3),
+#con10 .ins-tables_9 tbody  tr td:nth-of-type(2){
+	border-right: none
+}
+#con9 .ins-tables_9 tbody  tr:nth-last-of-type(1) td,
+#con9  tbody tr td:nth-of-type(1).rowspan,
+#con10 .ins-tables_9 tbody  tr:nth-last-of-type(1) td{
+    border-bottom: none;
+}
+#con10,#con9{
+	margin: 2em 1em 1em 1em;
+	display:block;
+	position: relative;
+}
+
+#con9  thead tr td{
+    width: 33.333%;
+    color: #333333;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    height: 60px;
+    word-break: break-all;
+    line-height: 70px;
+    font-weight: 300;
+    
+}
+#con9  thead tr td:nth-of-type(3){
+	padding-left: .4em;
+}
+#con9 .ins-table_9,
+#con10 .ins-table_9 {
+	border: 1px solid #ececec;
+    border-radius: 8px;
+    position: relative;
+}
+#con10 thead tr td{
+	width: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+    word-break: break-all;
+    font-weight: 300;
+    color: #333333;
+}
+#con9  tbody,
+#con10 tbody{
+	width: 100%;
+    display: inherit;
+    position: relative;
+    font-size: 12px;
+
+}
+#con9  tbody tr td:nth-of-type(1).rowspan{
+  text-align: center;
+}
+
+#con9 tbody td{
+    border:1px solid #ececec;
+    padding:1.2em;
+    width: 33.333%;
+    text-align: center;
+    color: #6b6b6b;
+}
+#con10 tbody td{
+    border:1px solid #ececec;
+    padding:1.2em;
+    width: 50%;
+    text-align: center;
+    color: #6b6b6b;
+}
+.treasure-seven-top{
+	margin: 1em ;	
+  position: relative;
+  margin-bottom:2em;
+}
+.treasure-seven-center,
+.treasure-seven-bottom{
+  margin: 2em 1em;	
+  position: relative;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  
+}
+.treasure-seven-top h1{
+	text-align: center;
+	padding: 0.5em 1em 1em 1em;
+	font-weight: 300;
+	color: #333;
+	font-weight: 300;
+	
+}
+
+.treasure-seven-center h1,
+.treasure-seven-bottom h1{
+	position: absolute;
+    display: block;
+    text-align: center;
+    padding: 0rem 2rem 0.5rem 2rem;
+    font-weight: 300;
+    color: #333;
+    top: 0;
+    background: #fff;
+    margin-top: -0.8em;
+    left: 50%;
+    margin-left: -67px;
+    overflow: hidden;
+}
+.treasure-seven-top li{
+	font-size: 12px;
+    color: #6b6b6b;
+    line-height: 22px;
+    padding: 0 1.2em;
+    margin-bottom: .5em;
+    font-weight: 300;
+}
+.treasure-seven-center p,
+.treasure-seven-bottom p{
+	font-size: 12px;
+    color: #6b6b6b;
+    line-height: 22px;
+    padding: 1em 1.2em;
+    font-weight: 300;
+   
+    
+}
+

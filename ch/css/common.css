@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+/*其中fontName替换为你的字体名称*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre, 
+form,fieldset,input,textarea,p,blockquote,th,td { 
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: "helvetica neue",arial,sans-serif;
+   
+} 
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+} 
+fieldset,img { 
+    border: 0; 
+    vertical-align: middle;
+} 
+ol,ul,li { 
+	list-style: none;
+	padding:0;
+	margin:0;
+    list-style: none; 
+} 
+caption,th { 
+    text-align: left; 
+} 
+h1,h2,h3,h4,h5,h6 { 
+    font-size: 100%; 
+    font-weight: 100;
+} 
+q:before,q:after { 
+    content:”; 
+} 
+abbr,acronym { 
+  border: 0; 
+}
+a,a:hover{
+  text-decoration: none;
+  color: #ffffff;
+}
+i{
+   font-style:normal;
+}
+
+body{position:relative;}
+input,button,select,textarea{outline:none}
+.contact li{color: #FFFFFF;}
+.mt20{margin-top:2em;}
+.clear{clear:both;}
+.min-h{min-height:100vh;}
+
+.wrap{width:100%;height:auto;transition:margin-left 0.4s;position:absolute;z-index: 2;}
+.wrap .con{max-width:650px;margin:0 auto;padding:0 1em;}
+.wrap .index-con .con{border-bottom:1px solid #fff;}
+.wrap .index-con a:last-child .con {border:none;}
+.indexcon{margin:0 auto;border-bottom:1px solid #fff;} 
+.wrap .index-con a:last-child .indexcon{border:none;}
+
+.wrap .index-con .con:nth-child(5){border:none;}
+.wrap .tab-con{max-width:650px;margin:0 auto;}
+.search-input{width:100%;padding:0 1.2em;height:5em;background:#c8c8ce;}
+.search-input input{width:100%;margin-top:0.9em;text-align:center;height:3em;background:white;border-radius:0.5em;border:none;} 
+.tab{width:100%;height:4em;background:#313131;position:relative;}
+.tab .logo{float:left;width:3em;height:100%;background:url(../images/logo.png) center right no-repeat;background-size:70%;}
+.tab .yount{float:left;width:3em;height:100%;background:url(../images/iconjintou.png) center right no-repeat;background-size:70%;}
+.tab .navs-btn{float:right;width:3em;height:100%;background:url(../images/navs-btn.png) center left no-repeat; background-size:70%;}
+.tab .n{color:white;text-align:center;line-height:4em;width:50%;margin:0 auto;}
+
+.fixed-navs{position:absolute;right:0;top:0;z-index:1;width:15em;height:110vh;background:#f5f4ef;}
+.fixed-navs .names a{color: #727270};
+.fixed-navs .names{padding-top:1em;}
+.fixed-navs ul{margin-top: 2em;}
+.fixed-navs .names li{width:100%;height:3em;text-align:left;line-height:3em;}
+.fixed-navs .names li a{width: 100%;height: 100%;display: inline-block;padding: 0 2em;}
+.fixed-navs { color: #ffffff;background-color: #f5f4ef;}
+.of{overflow:hidden;}
+.wrap.moveleft{margin-left:-15em;overflow:hidden;}
+
+.fixed-navs .m-logo{width:100%;height:9em;background:white url(../images/m-logo.png) center center no-repeat;background-size:25%;}
+
+.content{width:100%; height:auto;background:white;}
+
+.footer{width:100%;background:#313131;}
+.footer .con{padding:2em 1.2em;}
+.footer .contact{color:white;} 
+.footer .contact li{line-height:1.6em;}
+.footer .links{width:100%;margin-top:1.5em;height:2em;}
+.footer .links li{width:50%;float:left;text-align:center;}
+.footer .links li a{color:white;}
+.footer .share{width:8em;height:3em;margin:1em auto;position:relative;}
+
+.footer .share .we-code{position:absolute;width:8em;background:white url(../images/wechat-code.jpg) center center no-repeat;background-size:cover;bottom:3.5em;left:-25%;height:0;transition:height 0.4s;}
+.footer .share .we-code.show{height:8em;}
+
+.footer .share li{width:3em; height:3em;border:1px solid #fff; border-radius:50%;float:left;margin:0 5%;}
+.footer .wechat{background:url(../images/we-icon.png) center center no-repeat; background-size:50%;}
+.footer .sina{background:url(../images/si-icon.png) center center no-repeat; background-size:50%;}
+.footer .f{color:#515151!important;text-align:center;width:100%;font-size:0.8em;margin-top:1em;}
+
+footer-backe a{
+    text-decoration: none;
+    display:inline-block;
+    width:45px;height:45px;border-radius:50%;margin:0 20px;
+}
+.contain{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 1em;
+}

@@ -1,0 +1,671 @@
+/*common*/
+.wrap .con {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+.text h1{
+	font-size:1.5em;
+	margin:0.2em 0;
+	color:#333;
+	font-weight:300;
+}
+.text p{
+	font-size:.8em;
+	color:#333;
+	position:relative;
+	padding-top:.2em;
+}
+.img-con{
+	display:block;
+	width:100%;
+	margin:0 auto;
+	max-width: 640px;
+}
+
+/*pro概述页*/
+
+.pro-sum .learn-more {
+	margin-top:0.4em;
+	color:#666;
+	font-size:0.9em;
+}
+.pro-sum .top{
+	height:15em;
+	background:url(../images/pro-sum/sum-top.jpg) center top no-repeat;
+	background-size:cover;
+}
+.pro-sum .img-text{
+	margin-top:3.2em;
+	width:10em;
+}
+.pro-sum .per{
+	height:17em;
+	background:url(../images/pro-sum/bosh-bg.jpg) center right no-repeat;
+	background-size:cover;
+}
+.pro-sum .per .img-text{
+	width:20em;
+}
+.pro-sum .drive{
+	height:17em;
+	background:url(../images/pro-sum/battery-bg.jpg) center right no-repeat;
+	background-size:cover;
+	text-align: right;
+}
+.pro-sum .intell{
+	height:30em;
+	background:url(../images/pro-sum/init-bg.jpg) center bottom no-repeat;
+	background-size:cover;
+	text-align: center;
+}
+.pro-sum .tech{
+	height:auto;
+	background:white;
+	text-align: center;
+}
+.pro-sum .img-con{
+	margin-top:2em;
+}
+
+.pro-sum .foot-text{
+	text-align: center;
+	padding:2em 0;
+}
+.pro-sum .foot-text h1{
+	font-size:1.5em;
+	margin:0.2em 0;
+	color:#333;
+	font-weight:100;
+}
+.pro-sum .foot-text p{
+	font-size:.9em;
+	color:#333;
+}
+.pro-sum .foot-text p img{
+	width:3em;
+	position: relative;
+    top: -0.4em;
+}
+
+.pro-sum .text p i{
+	display: inline-block;
+    background: #36b05b;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -7px;
+    margin-left: 5px;
+}
+/*pro概述结束*/
+.pro-design .text span{
+	position:relative;
+	color:#666;
+	font-size:1.2em;
+}
+.pro-design .img-text{
+	width:1.8em;
+	position:relative;
+}
+.pro-design .top{
+	height:17em;
+	background:url(../images/pro-design/design-top.jpg) center top no-repeat;
+	background-size:cover;
+}
+.pro-design .text{
+	padding-top:3.2em;
+}
+.pro-design .decals{
+	text-align: center;
+}
+.pro-design .init-light{
+	height:16em;
+	background:url(../images/pro-design/init-light.jpg) top left no-repeat;
+	background-size:cover;
+}
+.pro-design .init-light .text h1,.pro-design .init-light .text p{
+	color:white;
+}
+.pro-design .init-light .text span{
+	color:#666;
+	font-size:1.2em;
+}
+.pro-design .init-light .text{
+	padding-left:1.6em;
+}
+.pro-design .init-light .text h1{
+	padding-top:0.1em;
+	padding-bottom:0.6em;
+}
+
+.pro-design .big-light {
+	height:27em;
+	background:black url(../images/pro-design/big-light.jpg) center bottom no-repeat;
+	background-size:contain;
+	text-align: center;
+}
+.pro-design .big-light .text h1,.pro-design .big-light .text p{
+	color:white;
+}
+.pro-design .last-light {
+	height:18em;
+	background:white url(../images/pro-design/last-light.jpg) left bottom no-repeat;
+	background-size:contain;
+	text-align: center;
+}
+.pro-design .led-light {
+	height:34em;
+	background:white url(../images/pro-design/whach-bg.jpg) center center no-repeat;
+	background-size:cover;
+	text-align: left;
+}
+.pro-design .led-light .text span{
+	top:-.7em;
+}
+.pro-design .led-light .img-text{
+	top:-.5em;
+	margin-left:.2em;
+}
+.pro-design .hand {
+	height:20em;
+	background:white url(../images/pro-design/hand-img.jpg) left bottom no-repeat;
+	background-size:contain;
+	text-align: right;
+}
+.pro-design .three-dot .text span,.pro-design .hand .text span{
+	top:-.3em;
+}
+.pro-design .three-dot{
+	height:14em;
+	background:#f9f9f9;
+	text-align: right;
+}
+.pro-design .wheel {
+	height:22em;
+	background:white url(../images/pro-design/wheel-bg.jpg) right top no-repeat;
+	background-size:cover;
+	text-align: right;
+}
+.pro-design .wheel .text .img-text{
+	top:-.4em;
+	margin-right:.2em;
+}
+.pro-design .wheel .text{
+	padding-top:9em;
+}
+.pro-design .wheel .text h1{
+	color:white;
+}
+.pro-design .wheel .text p{
+	color:white;
+}
+.pro-design .wheel .text span{
+	color:#666;
+	top:-.7em;
+}
+/**设计页的轮播**/
+.figure{
+	position:relative;
+	width:100%;
+	height:22em;
+	overflow:hidden;
+}
+.figure .pics{
+	position:absolute;
+	left:0;
+	top:0;
+	width:800%;
+	height:90%;
+}
+.figure .pics li{
+	width:12.5%;
+	float:left;
+	height:100%;
+}
+.figure .pics li:nth-of-type(1){
+	background:url(../images/pro-design/design/car-pro-blue.png) -2em center no-repeat;
+	background-size:contain;
+}
+.figure .pics li:nth-of-type(2){
+	background:url(../images/pro-design/design/car-pro-silver.png) -2em center no-repeat;
+	background-size:contain;
+}
+.figure .pics li:nth-of-type(3){
+	background:url(../images/pro-design/design/car-pro-purple.png) -2em center no-repeat;
+	background-size:contain;
+}
+.figure .pics li:nth-of-type(4){
+	background:url(../images/pro-design/design/car-lite-black.png) -2em center no-repeat;
+	background-size:contain;
+}
+.figure .pics li:nth-of-type(5){
+	background:url(../images/pro-design/design/car-lite-color.png) -2em center no-repeat;
+	background-size:contain;
+}
+.figure .pics li:nth-of-type(6){
+	background:url(../images/pro-design/design/car-lite-silver.png) -2em center no-repeat;
+	background-size:contain;
+}
+.figure .pics li:nth-of-type(7){
+	background:url(../images/pro-design/design/car-lite-white.png) -2em center no-repeat;
+	background-size:contain;
+}
+.figure .pics li:nth-of-type(8){
+	background:url(../images/pro-design/design/car-pro-blue.png) -2em center no-repeat;
+	background-size:contain;
+}
+.figure .dots{
+	position: absolute;
+   bottom: 4em;
+    left: 50%;
+    margin-left: -3em;
+}
+.figure .dots li{
+	float:left;
+	margin:0 5px;
+}
+.figure .dots li i{
+	width:6px;
+	height:6px;
+	background:#d2d2d2;
+	border-radius:50%;
+	display:inline-block;
+	cursor:pointer;
+}
+.figure .dots li span{
+	position:absolute;
+	left:0;
+	font-size:16px;
+	top:1.5em;
+	display:none;
+}
+.figure .dots li.active i{
+	background:#36b05b;
+}
+.figure .dots li.active span{
+	display:block;
+}
+
+
+/***pro性能页***/
+.pro-per .img-text{
+	width:1.8em;
+	position:relative;
+}
+.pro-per .top{
+	height:16em;
+	background:url(../images/pro-per/per-top.jpg) center top no-repeat;
+	background-size:cover;
+}
+.pro-per .text{
+	padding-top:3.2em;
+}
+.pro-per .foc{
+	height:17em;
+	background:url(../images/pro-per/foc-bg.jpg) -20px top no-repeat;
+	background-size:cover;
+}
+.pro-per .foc .img-text{
+	top:-.1em;
+}
+.pro-per .boosh{
+	height:17em;
+	background:url(../images/pro-per/bosh-bg.jpg) center center no-repeat;
+	background-size:cover;
+}
+.pro-per .boosh .text{
+	padding-top:3em;
+	text-align: right;
+}
+.pro-per .boosh .text h1,.pro-per .boosh .text p{
+	color:white;
+}
+.pro-per .boosh h1 .img-text{
+	width:1.3em;
+	top:-.2em;
+}
+.pro-per .boosh .img-text{
+	width:7em;
+}
+
+.pro-per .brake{
+	height:33em;
+	background:url(../images/pro-per/brake-bg.jpg) top right no-repeat;
+	background-size:cover;
+	text-align: center;
+}
+.pro-per .brake .text{
+	padding-top:19em;
+}
+.pro-per .shake{
+	height:23em;
+	background:url(../images/pro-per/shock-img.jpg) bottom left no-repeat;
+	background-size:contain;
+	text-align: right;
+}
+.pro-per .text span{
+	position:relative;
+	color:#666;
+	font-size:1.2em;
+	top:-.4em;
+}
+.pro-per .shake01{
+	height:16em;
+	background:url(../images/pro-per/shock-01.jpg) left center no-repeat;
+	background-size:cover;
+	text-align: left;
+}
+.pro-per .wading{
+	height:22em;
+	background:url(../images/pro-per/wading.jpg) right center no-repeat;
+	background-size:cover;
+	text-align: left;
+}
+
+
+
+/****pro电驱****/
+.pro-drive span{
+	position:relative;
+	color:#666;
+	font-size:1.2em;
+}
+.pro-drive .top{
+	height:16em;
+	background:url(../images/pro-drive/drive-top.jpg) center right no-repeat;
+	background-size:cover;
+	text-align: right;
+}
+.pro-drive .text{
+	padding-top:3.2em;
+}
+.pro-drive .battery{
+	text-align: center;
+}
+.pro-drive .battery span .img-text{
+	width:4em;
+	margin-left:.2em;
+}
+.pro-drive .pack{
+	text-align: center;
+	background:#fafafa url(../images/pro-drive/line.png) center 3.6em no-repeat;
+}
+.pro-drive .shell{
+	text-align: center;
+}
+
+.pro-drive .bms{
+	height:23em;
+	background:url(../images/pro-drive/bms-bg.jpg) center center no-repeat;
+	background-size:cover;
+	text-align: center;
+}
+.pro-drive .bms .img-con{
+	margin-top:3em;
+}
+.pro-drive .bms .text h1,.pro-drive .bms .text p{
+	color:white;
+}
+.pro-drive .bms .text span{
+	color:#999;
+	top:-.3em;
+}
+.pro-drive .interfere{
+	background:#eee;
+	text-align: center;
+}
+.pro-drive .interfere .text{
+	padding-bottom:1.5em;
+}
+
+.pro-drive .hand{
+	height:18em;
+	background:url(../images/pro-drive/hand.jpg) center left no-repeat;
+	background-size:cover;
+	text-align: left;
+}
+.pro-drive .interfere .text span,.pro-drive .hand .text span{
+	top:-.3em;
+}
+
+/**pro智能页***/
+.pro-intell .top{
+	height:16em;
+	background:url(../images/pro-intell/intell-top.jpg) center right no-repeat;
+	background-size:cover;
+	text-align: right;
+}
+.pro-intell .text{
+	padding-top:3.2em;
+}
+.pro-intell .wisdom{
+	height:20em;
+	background:url(../images/pro-intell/wisdom.jpg) center bottom no-repeat;
+	background-size:cover;
+}
+.pro-intell .wisdom .text span{
+	padding:.7em 0;
+}
+.pro-intell .wisdom .text p{
+	color:#a0a0a0;
+	margin-top:.3em;
+}
+.pro-intell .wisdom .text p i{
+	display:inline-block;
+	width:.2em;
+	height:.2em;
+	background:#36b15b;
+	position:relative;
+	top:-.2em;
+	margin-right:.2em;
+}
+
+.pro-intell .app{
+	height:32em;
+	background:url(../images/pro-intell/app-bg.jpg) center bottom no-repeat;
+	background-size:cover;
+}
+.pro-intell .app .text h1,.pro-intell .app .text p{
+	color:white;
+}
+.pro-intell .app .text span{
+	color:white;
+	font-size:0.8em;
+}
+.pro-intell .app .text span i{
+	display:inline-block;
+	width:.2em;
+	height:.2em;
+	background:white;
+	position:relative;
+	top:-.2em;
+	margin-right:.2em;
+}
+.pro-intell .app-more{
+	background:url(../images/pro-intell/soco-app.jpg) center 1.8em no-repeat;
+	background-size:12em;
+	text-align: right;
+}
+.pro-intell .app-more .text .img-text{
+	position:relative;
+	top:-.4em;
+}
+.pro-intell .app-more .text{
+	padding-bottom:2em;
+}
+
+
+
+/****pro工艺****/
+.pro-tech .top{
+	height:16em;
+	background:url(../images/pro-tech/tech-top.jpg) center left no-repeat;
+	background-size:cover;
+}
+.pro-tech .text{
+	padding-top:3.2em;
+}
+.pro-tech .bracket{
+	text-align: center;
+}
+.pro-tech .bracket .text{
+	padding-bottom:1.5em;
+}
+.pro-tech .bracket .text span{
+	color:#666;
+	font-size:1.2em;
+	top:-.2em;
+	position:relative;
+}
+.pro-tech .bracket .text p{
+	padding:0.2em 0;
+}
+
+.pro-tech .bracket01{
+	height:12em;
+	background:url(../images/pro-tech/bracket-01.jpg) center center no-repeat;
+	background-size:cover;
+	text-align: right;
+}
+.pro-tech .bracket01 .text{
+	padding-top:1.5em;
+}
+.pro-tech .bracket02{
+	height:12em;
+	background:url(../images/pro-tech/bracket-02.jpg) center center no-repeat;
+	background-size:cover;
+	text-align: left;
+}
+.pro-tech .bracket02 .text{
+	padding-top:2em;
+}
+.pro-tech .bracket01 .text p,.pro-tech .bracket02 .text p{
+	width:48%;
+}
+.pro-tech .bracket01 .text p{
+	float:right;
+}
+.pro-tech .rocker{
+	text-align: center;
+}
+.pro-tech .rocker .text{
+	padding-bottom:1.5em;
+}
+.pro-tech .wire{
+	text-align: center;
+}
+.pro-tech .wire .text{
+	padding-bottom:1.5em;
+}
+.pro-tech .wire .text span{
+	color:#666;
+	font-size:1.2em;
+	top:-.2em;
+	position:relative;
+}
+.pro-tech .safe{
+	height:50em;
+	background:url(../images/pro-tech/safe.jpg) center center no-repeat;
+	background-size:cover;
+	text-align: center;
+	position:relative;
+}
+.pro-tech .safe .text{
+	position:absolute;
+	width: 100%;
+    left: 0;
+    padding:0 1em;
+}
+.pro-tech .safe .first span{
+	color:#999;
+	font-size:1.2em;
+	top:-.2em;
+	position:relative;
+}
+.pro-tech .safe .first{
+	padding-top:3.2em;
+}
+.pro-tech .safe .first p,.pro-tech .safe .first h1{
+	color:white;
+}
+.pro-tech .safe .second{
+	padding-top:19em;
+}
+.pro-tech .safe .third{
+	padding-top:33em;
+	text-align: right;
+}
+.pro-tech .safe .third p{
+	width:52%;
+	float:right;
+}
+.pro-tech .plate{
+	text-align: center;
+}
+
+
+/****pro规格****/
+.pro-stand .top{
+	height:16em;
+	background:url(../images/pro-stand/top.jpg) center center no-repeat;
+	background-size:cover;
+	text-align: center;
+}
+.pro-stand .top .text{
+	padding-top:3.2em;
+}
+.pro-lite-nav li{
+	width:50%;
+	float:left;
+	height:2em;
+	line-height: 2em;
+	background:#f7f5f5;
+	text-align: center;
+	color:#36b05b;
+	transition: all 0.2s;
+	font-size:1.2em;
+}
+.pro-lite-nav li.active{
+	background:#36b05b;
+	color:white;
+	font-size:1.2em;
+}
+.pro-stand .data{
+	margin-bottom:3em;
+}
+.pro-stand .data>li>h1{
+	font-size:1.5em;
+	color:#333;
+	position:relative;
+	border-bottom:1px solid #36b05b;
+	margin-top:1em;
+	line-height: 1.8em;
+	padding:0 .7em;
+}
+.pro-stand .data>li>h1:before{
+	content:'';
+	width:2em;
+	height:.1em;
+	background:#36b05b;
+	position:absolute;
+	top:0em;
+}
+.pro-stand .data>li>ul{
+	padding:0 1em;
+}
+.pro-stand .data>li>ul>li{
+	width:100%;
+	height:2.5em;
+	line-height: 2.5em;
+	font-size:.9em;
+	border-bottom:1px dashed #e5e5e5;
+}
+.pro-stand .data>li>ul>li>label{
+	width:40%;
+	display: inline-block;
+}
+
+
+/*******/
